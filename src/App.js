@@ -46,7 +46,7 @@ function App() {
     const siteLinks = sites.map((site) => <Site key={site.name} site={site}/>);
 
     return (
-        <div className="d-flex h-100 p-3 mx-auto flex-column">
+        <div className="page">
             <Header/>
             <main>
                 <div className="site-links">

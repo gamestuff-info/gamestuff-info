@@ -17,11 +17,15 @@ body {
   @extend .justify-content-center;
 
   text-align: center;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
 
-main {
-
+.page {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .h-100;
+  @extend .p-3;
+  @extend .mx-auto;
 }
 
 .site-links {
