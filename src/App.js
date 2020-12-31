@@ -1,9 +1,16 @@
 import logo_xeno2 from "./images/xeno2.svg";
-import logo_poketools from "./images/poketools.svg";
 
 const sites = [
-    {name: "Xenoblade Chronicles 2: Management Simulator", image: logo_xeno2, link: "https://xeno2.gamestuff.info/"},
-    {name: "Pokétools", image: logo_poketools, link: "https://poketools.gamestuff.info"},
+    {
+        name: "Xenoblade Chronicles 2: Management Simulator",
+        image: logo_xeno2,
+        link: "https://xeno2.gamestuff.info/"
+    },
+    // {
+    //     name: "Pokétools",
+    //     image: logo_poketools,
+    //     link: "https://poketools.gamestuff.info"
+    // },
 ];
 
 function Header(props) {
