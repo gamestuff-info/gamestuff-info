@@ -30,7 +30,7 @@ function Site(props) {
 function Footer(props) {
     return (
         <footer className="mt-auto">
-            <p><a href="https://gitlab.com/gamestuff.info">Contribute to development</a></p>
+            <p><a href="https://github.com/gamestuff-info">Contribute to development</a></p>
         </footer>
     );
 }
