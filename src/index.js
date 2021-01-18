@@ -1,8 +1,5 @@
 import React from 'react';
 import {render} from 'react-snapshot'
-import 'jquery';
-import 'popper.js';
-import 'bootstrap';
 import './App.scss';
 import App from './App';
 
