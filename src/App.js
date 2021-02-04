@@ -1,4 +1,5 @@
 import logo_xeno2 from "./images/xeno2.svg";
+import logo_poketools from "./images/poketools.svg";
 
 const sites = [
     {
@@ -6,11 +7,11 @@ const sites = [
         image: logo_xeno2,
         link: "https://xeno2.gamestuff.info/"
     },
-    // {
-    //     name: "Pokétools",
-    //     image: logo_poketools,
-    //     link: "https://poketools.gamestuff.info"
-    // },
+    {
+        name: "Pokétools",
+        image: logo_poketools,
+        link: "https://poketools.gamestuff.info"
+    },
 ];
 
 function Header(props) {
@@ -27,7 +28,7 @@ function Site(props) {
     const site = props.site;
     return (
         <div className="site-link">
-            <a href={site.link}>
+            <a href={site.link} title={site.name}>
                 <img src={site.image} alt={site.name}/>
             </a>
         </div>
